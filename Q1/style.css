@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(240, 231, 231);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    margin-top: 20px;
+}
+.icons ul{
+    display: flex;
+    margin-left:70%;
+}
+.icons ul li a{
+    padding: 10px;
+   font-size: 20px;
+    text-decoration: none;
+}
+.icons ul li{
+    padding-left: 5px;
+    list-style-type:none;
+    text-align: center;
+   
+}
+nav h2{
+    margin-left: 25%;
+    text-align: center;
+    color:rgb(201, 199, 199);
+}
+.icons ul li a:hover{
+    background-color: blue;
+    color: rgb(247, 247, 247);
+}
+.containers{
+    margin-left: 25%;
+  
+}
+.cart{
+    width: 670px;
+    height: 320px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+.cart h1{
+    text-align: center;
+    font-size: 60px;
+}
+.cart p{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.btn1{
+    text-align: center;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: green;
+    font-family: cursive;
+}
+.btn2{
+    text-align: center;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+    background-color: blue;
+    font-family: cursive;
+    font-size: 18px;
+}
+.banner
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+}
+.row{
+    margin-top: 10px;
+
+
+}
+.right{
+    padding-left: 30px;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 700px;
+    color: rgb(255, 251, 251);
+}
+.bottom span{
+ color: blue;
+}
+.bottom{
+    padding: 20px;
+}
